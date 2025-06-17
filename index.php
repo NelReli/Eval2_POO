@@ -3,7 +3,6 @@ include "Animal.php";
 session_start();
 ?>
 
-
 <!-- CREATE VIEW  -->
 
 <h3>Formulaire de Création</h3>

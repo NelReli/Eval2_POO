@@ -65,9 +65,9 @@ if ($animal){
 // <!-- DELETE VIEW -->
 if ($animal) {
 ?>
-    <form action="" method="post">
+    <form action="index.php" method="post">
         <input type="hidden" name="action" value="delete">
-        <button type="submit">delete</button>
+        <button type="submit">Supprimer</button>
     </form>
 <?php
 }
@@ -79,7 +79,7 @@ if ($animal) {
 ?>
 <!-- update avec form -->
 
-<form  method="post" >
+<form action="resultat.php"  method="post" >
     <input type="hidden" name="action" value="update">
         <label for="nom"><?=  $animal->getNom() ?> </label>
         <input type="text" name="nom"  />
